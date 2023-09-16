@@ -1,9 +1,4 @@
-// Importe as dependências necessárias
-const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = new Sequelize('sua_basedados', 'seu_usuario', 'sua_senha', {
-  host: 'localhost',
-  dialect: 'mysql',
-});
+
 
 // Defina o modelo de "Automobile"
 const Automobile = sequelize.define('Automobile', {
